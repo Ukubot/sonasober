@@ -1,0 +1,239 @@
+
+body {
+  background-color: #fefefe;
+  padding: 0;
+  margin: 0;
+}
+
+.app-view {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    height: 100vh;
+}
+
+
+
+/*ALTERNATIVE FONT CLASS FOR CARDS AND CATEGORIES*/
+.alt_font {
+    font-family: OpenDyslexic-Regular;
+}
+
+/*TOP AREA*/
+.topmenu-container {
+    margin: auto;
+    width: 80%;
+    height: 140px;
+    display: flex;
+}
+
+/*INPUT AREA*/
+.input-container {
+    width:auto;
+    margin: auto;
+    flex: 1 1 100%;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+}
+
+.input-container__input-area {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+.input-container input {
+    height: 4rem;
+    width: auto;
+    padding-left: 10px;
+    border: none;
+    font-size: 1.5rem;
+    flex: 1 1 100%;
+}
+
+.input_container__btn-clear {
+    background: tomato;
+    width: auto;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 20px;
+    justify-content: flex-start;
+}
+
+.input_container__btn-clear:hover {
+    cursor: pointer;
+    background: #fd593c;
+}
+
+.input_container__btn-say {
+    cursor: pointer;
+    color: #ffffff;
+    background: #FFB74D;
+    border: none;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    height: 4rem;
+    justify-content: flex-end;
+    padding:10px;
+}
+
+.input_container__btn-say:hover {
+    cursor: pointer;
+    background:#fdb245;
+}
+/*INPUT AREA END*/
+
+
+
+/*MIDDLE CONTENT CLASSES*/
+.middle-inner {
+    height: calc(100vh - 140px);
+    margin: auto;
+    text-align: center;
+}
+
+.topicmenu-container {
+  
+    height:auto;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    padding:0 20px;
+}
+
+.middle-container {
+  
+  height: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-flow: wrap;
+  flex: 1;
+    padding: 0 20px;
+}
+
+.topicmenu-element {
+  width: 170px;
+  height: 220px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*Word card styling*/
+.word-element {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 200px;
+    height: 240px;
+    background-color:white;
+    margin: 0 10px 10px;
+    border-radius: 3px;
+}
+
+.topicmenu-element-inner__card-bg:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.topicmenu-element-inner__card-bg {
+    border-radius: 3px;
+    width: 90%;
+    margin: auto;
+}
+
+/*ACTIVE CLASS TO USE WHEN MENU ITEM IS CLICKED*/
+.topicmenu-element-inner__card-bg.active {
+    width: 120%;
+    border-radius: 0;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.topicmenu-element-inner__card-bg img{
+    width:60%;
+    padding:30px 0;
+    
+}
+
+.topicmenu-element-image-title {
+    font-size:24px;
+}
+
+
+/*Category color classes*/
+.topicmenu-element__places {
+    background-color: #f7d371;
+}
+.topicmenu-element__animals{
+    background-color: #bd835f;
+}
+
+.topicmenu-element__activities{
+    background-color: #C54054;
+}
+
+.topicmenu-element__emotions{
+    background-color: #FED41B;
+}
+
+.topicmenu-element__clothing{
+    background-color: #069358;
+}
+
+.places-bg {
+    background-color: #f7d371;
+}
+
+.animals-bg {
+    background-color: #bd835f;
+}
+
+
+.image-title {
+    text-align: center;
+    z-index: 9;
+    font-size: 24px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.img-button img {
+  height: 200px;
+  width: 200px;
+  opacity: 0.9;
+    border-radius: 3px;
+}
+
+.img-button:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+
+/*MIDDLE CONTENT CLASSES END*/
+
+/*CATEGORY MENU*/
+.category-filter {
+  display: inline-flex;
+}
+
+/* Filter imlimentation */
+.hide {
+  display: none !important
+ }
+
+#wordcontainer {
+  justify-content: space-around;
+}
+
+#wordcontainer .word-element.places {
+  display: block;
+}
+
+/*CATEGORY MENU END*/

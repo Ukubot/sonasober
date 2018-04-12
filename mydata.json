@@ -1,0 +1,16 @@
+[
+    
+
+  {"id":"1","name":"hiir","sound":"hiir","image":"loomad/hiir","category":"animals"},
+  {"id":"2","name":"hobune","sound":"hobune","image":"loomad/hobune","category":"animals"},
+  {"id":"3","name":"kass","sound":"kass","image":"loomad/kass","category":"animals"},
+  {"id":"4","name":"kalad","sound":"kalad","image":"loomad/kalad","category":"animals"},{"id":"5","name":"lammas","sound":"lammas","image":"loomad/lammas","category":"animals"},{"id":"6","name":"lehm","sound":"lehm","image":"loomad/lehm","category":"animals"},{"id":"7","name":"pääsuke","sound":"paasuke","image":"loomad/paasuke","category":"animals"},{"id":"8","name":"part","sound":"part","image":"loomad/part","category":"animals"},
+    
+    
+    
+    
+  {"id":"8","name":"kino","sound":"kino","image":"kohad/kino","category":"places"},
+  {"id":"10","name":"lift","sound":"lift","image":"kohad/lift","category":"places"},{"id":"11","name":"garaaz","sound":"garaaz","image":"kohad/garaaz","category":"places"},{"id":"12","name":"õu","sound":"ou","image":"kohad/ou","category":"places"}
+    
+  
+]
