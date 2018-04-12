@@ -89,8 +89,8 @@
           </div>
           <div id="downClick" class="arrow-down autoclick"></div>
         </div>
-        <div class="middle-container places-bg">
-          <header class="topmenu-container places-bg">
+        <div class="middle-container">
+          <header class="topmenu-container">
             <div class="input-container">
                 <div class="input-container__input-area">
 
