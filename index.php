@@ -28,8 +28,9 @@
 <body>
   <div id="container">
       <div id="content">
-        <div class="app-view">
+        <div class="app-view places-bg">
         <div class="topicmenu-container">
+          <div id="upClick" class="arrow-up autoclick"></div>
           <div class="topicmenu-inner alt_font">
             <div class="topicmenu-element" id="places">
                 <div class="topicmenu-element-inner">
@@ -46,7 +47,7 @@
                     <div class="topicmenu-element-inner__card-bg topicmenu-element__animals">
                         <img src="images/word-category-icons/animals.svg"/>
                     </div>
-                    
+
                     <div class="topicmenu-element-image-title">
                         Loomad
                     </div>
@@ -57,7 +58,7 @@
                     <div class="topicmenu-element-inner__card-bg topicmenu-element__clothing">
                         <img src="images/word-category-icons/clothing.svg"/>
                     </div>
-                    
+
                     <div class="topicmenu-element-image-title">
                         Riietus
                     </div>
@@ -68,7 +69,7 @@
                     <div class="topicmenu-element-inner__card-bg topicmenu-element__activities">
                         <img src="images/word-category-icons/activities.svg"/>
                     </div>
-                    
+
                     <div class="topicmenu-element-image-title">
                         Tegevused
                     </div>
@@ -86,12 +87,13 @@
             </div>
 
           </div>
+          <div id="downClick" class="arrow-down autoclick"></div>
         </div>
         <div class="middle-container places-bg">
           <header class="topmenu-container places-bg">
             <div class="input-container">
                 <div class="input-container__input-area">
-                    
+
                         <button class="input_container__btn-clear" id="clearInput">X</button>
                         <input id="kuulatekst" name="speech" placeholder="Kirjuta siia"></input>
                         <button class="input_container__btn-say alt_font" id="kuulaklikk" alt="Kuula teksti valitud häälega">Ütlen</button>

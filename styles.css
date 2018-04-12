@@ -96,17 +96,16 @@ body {
 }
 
 .topicmenu-container {
-  
-    height:auto;
-    background-color: #ffffff;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    justify-content: flex-start;
-    padding:0 20px;
+  margin: auto;
+  height: calc(100vh - 100px);
+  background-color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  padding:0 20px;
 }
 
 .middle-container {
-  
   height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -157,7 +156,7 @@ body {
 .topicmenu-element-inner__card-bg img{
     width:60%;
     padding:30px 0;
-    
+
 }
 
 .topicmenu-element-image-title {
@@ -234,6 +233,35 @@ body {
 
 #wordcontainer .word-element.places {
   display: block;
+}
+
+.arrow-up, .arrow-down {
+  position: absolute;
+  left: 75px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.arrow-up {
+  top: 10px;
+  border-bottom: 30px solid tomato;
+}
+
+.arrow-down {
+  bottom: 10px;
+  border-top: 30px solid tomato;
+}
+
+.arrow-up:hover {
+    cursor: pointer;
+    border-bottom: 30px solid #fd593c;
+}
+
+.arrow-down:hover {
+    cursor: pointer;
+    border-top: 30px solid #fd593c;
 }
 
 /*CATEGORY MENU END*/
