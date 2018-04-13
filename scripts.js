@@ -1,7 +1,7 @@
 
 //Feature to click elements only by hovering at them / looking at them
 function visiontracker(){
-  var delay=4000, setTimeoutConst;
+  var delay=3000, setTimeoutConst;
   $('.word-element, .topicmenu-element, #clearInput, #kuulatekst, #kuulaklikk, .autoclick').hover(function() {
     var visiontarget= $(this);
      setTimeoutConst = setTimeout(function(){
