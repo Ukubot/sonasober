@@ -8,9 +8,78 @@
     
     
     
+   
+  {"id":"9","name":"kino","sound":"kino","image":"kohad/kino","category":"places"},
+  {"id":"10","name":"lift","sound":"lift","image":"kohad/lift","category":"places"},{"id":"11","name":"garaaz","sound":"garaaz","image":"kohad/garaaz","category":"places"},{"id":"12","name":"õu","sound":"ou","image":"kohad/ou","category":"places"},
     
-  {"id":"8","name":"kino","sound":"kino","image":"kohad/kino","category":"places"},
-  {"id":"10","name":"lift","sound":"lift","image":"kohad/lift","category":"places"},{"id":"11","name":"garaaz","sound":"garaaz","image":"kohad/garaaz","category":"places"},{"id":"12","name":"õu","sound":"ou","image":"kohad/ou","category":"places"}
+
+    {"id":"13","name":"armastus","sound":"armastus","image":"emotsioonid/armastus","category":"emotions"},
+    {"id":"14","name":"haige","sound":"haige","image":"emotsioonid/haige","category":"emotions"},
+    {"id":"15","name":"hirmunud","sound":"hirmunud","image":"emotsioonid/hirmunud","category":"emotions"},
+    {"id":"16","name":"häbelik","sound":"habelik","image":"emotsioonid/habelik","category":"emotions"},
+    {"id":"17","name":"kurb","sound":"kurb","image":"emotsioonid/kurb","category":"emotions"},
+    {"id":"18","name":"murelik","sound":"murelik","image":"emotsioonid/murelik","category":"emotions"},
+    {"id":"19","name":"naerma","sound":"naerma","image":"emotsioonid/naerma","category":"emotions"},
+    {"id":"20","name":"nutma","sound":"nutma","image":"emotsioonid/nutma","category":"emotions"},
+    {"id":"21","name":"rõõmus","sound":"roomus","image":"emotsioonid/roomus","category":"emotions"},
+    {"id":"22","name":"segaduses","sound":"segaduses","image":"emotsioonid/segaduses","category":"emotions"},
+    {"id":"23","name":"üllatunud","sound":"ullatunud","image":"emotsioonid/ullatunud","category":"emotions"},
+    {"id":"24","name":"väsinud","sound":"vasinud","image":"emotsioonid/vasinud","category":"emotions"},
+    {"id":"25","name":"vihane","sound":"vihane","image":"emotsioonid/vihane","category":"emotions"},    
     
-  
+
+    {"id":"26","name":"dressipluus","sound":"dressipluus","image":"riided/dressipluus","category":"clothes"},
+    {"id":"27","name":"jope","sound":"jope","image":"riided/jope","category":"clothes"},
+    {"id":"28","name":"kampsun","sound":"kampsun","image":"riided/kampsun","category":"clothes"},
+    {"id":"29","name":"kindad","sound":"kindad","image":"riided/kindad","category":"clothes"},
+    {"id":"30","name":"kontsakingad","sound":"kontsakingad","image":"riided/kontsakingad","category":"clothes"},
+    {"id":"31","name":"kott","sound":"kott","image":"riided/kott","category":"clothes"},
+    {"id":"32","name":"kummikud","sound":"kummikud","image":"riided/kummikud","category":"clothes"},
+    {"id":"33","name":"lips","sound":"lips","image":"riided/lips","category":"clothes"},
+    {"id":"34","name":"Lühikesed püksid","sound":"luhikesedpuksid","image":"riided/luhikesedpuksid","category":"clothes"},
+    {"id":"35","name":"mantel","sound":"mantel","image":"riided/mantel","category":"clothes"},
+    {"id":"36","name":"meeste kingad","sound":"meestekingad","image":"riided/meestekingad","category":"clothes"},
+    {"id":"37","name":"müts","sound":"muts","image":"riided/muts","category":"clothes"},
+    {"id":"38","name":"meeste pluus","sound":"meestepluus","image":"riided/meestepluus","category":"clothes"},
+    {"id":"39","name":"pluus","sound":"pluus","image":"riided/pluus","category":"clothes"},
+    {"id":"40","name":"puksid","sound":"puksid","image":"riided/puksid","category":"clothes"},
+    {"id":"41","name":"sall","sound":"sall","image":"riided/sall","category":"clothes"},
+    {"id":"42","name":"sokid","sound":"sokid","image":"riided/sokid","category":"clothes"},
+    {"id":"43","name":"sukapüksid","sound":"sukapuksid","image":"riided/sukapuksid","category":"clothes"},
+    {"id":"44","name":"t-särk","sound":"tsark","image":"riided/tsark","category":"clothes"},
+    {"id":"45","name":"tossud","sound":"tossud","image":"riided/tossud","category":"clothes"},
+    {"id":"46","name":"triiksärk","sound":"triiksark","image":"riided/triiksark","category":"clothes"},
+    {"id":"47","name":"vest","sound":"vest","image":"riided/vest","category":"clothes"},
+    {"id":"48","name":"tossud","sound":"tossud","image":"riided/tossud","category":"clothes"},
+    {"id":"49","name":"vöö","sound":"voo","image":"riided/voo","category":"clothes"},
+    
+
+    {"id":"50","name":"hambaid pesema","sound":"hambaidpesema","image":"tegevused/hambaidpesema","category":"activities"},
+    {"id":"51","name":"huudma","sound":"huudma","image":"tegevused/huudma","category":"activities"},
+    {"id":"52","name":"istuma","sound":"istuma","image":"tegevused/istuma","category":"activities"},
+    {"id":"53","name":"jalutama","sound":"jalutama","image":"tegevused/jalutama","category":"activities"},
+    {"id":"54","name":"jooksma","sound":"jooksma","image":"tegevused/jooksma","category":"activities"},
+    {"id":"55","name":"juukseid kammima","sound":"juukseidkammima","image":"tegevused/juukseidkammima","category":"activities"},
+    {"id":"56","name":"käsi pesema","sound":"kasipesema","image":"tegevused/kasipesema","category":"activities"},
+    {"id":"58","name":"kaunistama","sound":"kaunistama","image":"tegevused/kaunistama","category":"activities"},
+    {"id":"59","name":"kinno minema","sound":"kinnominema","image":"tegevused/kinnominema","category":"activities"},
+    {"id":"60","name":"kooli minema","sound":"kooliminema","image":"tegevused/kooliminema","category":"activities"},
+    {"id":"61","name":"koristama","sound":"koristama","image":"tegevused/koristama","category":"activities"},
+    {"id":"63","name":"kukkuma","sound":"pluus","image":"tegevused/kukkuma","category":"activities"},
+    {"id":"64","name":"laulma","sound":"laulma","image":"tegevused/laulma","category":"activities"},
+    {"id":"65","name":"lugema","sound":"sall","image":"tegevused/lugema","category":"activities"},
+    {"id":"66","name":"magama","sound":"magama","image":"tegevused/magama","category":"activities"},
+    {"id":"67","name":"mängima","sound":"mangima","image":"tegevused/mangima","category":"activities"},
+    {"id":"68","name":"mõtlema","sound":"motlema","image":"tegevused/motlema","category":"activities"},
+    {"id":"69","name":"muusikat kuulama","sound":"muusikatkuulama","image":"tegevused/muusikatkuulama","category":"activities"},
+    {"id":"70","name":"õppima","sound":"oppima","image":"tegevused/oppima","category":"activities"},
+    {"id":"71","name":"pesema","sound":"pesema","image":"tegevused/pesema","category":"activities"},
+    {"id":"72","name":"rääkima","sound":"raakima","image":"tegevused/raakima","category":"activities"},
+    {"id":"73","name":"sööma","sound":"sooma","image":"tegevused/sooma","category":"activities"},
+    {"id":"74","name":"tantsima","sound":"tantsima","image":"tegevused/tantsima","category":"activities"},
+    {"id":"75","name":"telekat vaatama","sound":"telekatvaatama","image":"tegevused/telekatvaatama","category":"activities"},
+    {"id":"76","name":"sööma","sound":"sooma","image":"tegevused/sooma","category":"activities"},
+    {"id":"77","name":"ujuma","sound":"ujuma","image":"tegevused/ujuma","category":"activities"},
+    {"id":"78","name":"ärkama","sound":"arkama","image":"tegevused/arkama","category":"activities"}
+    
 ]
