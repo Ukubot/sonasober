@@ -1,8 +1,8 @@
 [
     
 
-  {"id":"1","name":"hiir","sound":"hiir","image":"loomad/hiir","category":"animals"},
-  {"id":"2","name":"hobune","sound":"hobune","image":"loomad/hobune","category":"animals"},
+  {"id":"1","name":"hiir","sound":"hiir","sound2":"hobune","image":"loomad/hiir","category":"animals"},
+  {"id":"2","name":"hobune","sound":"hobune","sound2":"sitt","image":"loomad/hobune","category":"animals"},
   {"id":"3","name":"kass","sound":"kass","image":"loomad/kass","category":"animals"},
   {"id":"4","name":"kalad","sound":"kalad","image":"loomad/kalad","category":"animals"},{"id":"5","name":"lammas","sound":"lammas","image":"loomad/lammas","category":"animals"},{"id":"6","name":"lehm","sound":"lehm","image":"loomad/lehm","category":"animals"},{"id":"7","name":"pääsuke","sound":"paasuke","image":"loomad/paasuke","category":"animals"},{"id":"8","name":"part","sound":"part","image":"loomad/part","category":"animals"},
     
@@ -80,6 +80,13 @@
     {"id":"75","name":"telekat vaatama","sound":"telekatvaatama","image":"tegevused/telekatvaatama","category":"activities"},
     {"id":"76","name":"sööma","sound":"sooma","image":"tegevused/sooma","category":"activities"},
     {"id":"77","name":"ujuma","sound":"ujuma","image":"tegevused/ujuma","category":"activities"},
-    {"id":"78","name":"ärkama","sound":"arkama","image":"tegevused/arkama","category":"activities"}
+    {"id":"78","name":"ärkama","sound":"arkama","image":"tegevused/arkama","category":"activities"},
+    
+    {"id":"79","name":"hüppamine","sound":"huppamine","image":"liikumine/huppamine","category":"movement"},
+    {"id":"80","name":"jalutamine","sound":"jalutamine","image":"liikumine/jalutamine","category":"movement"},
+    {"id":"81","name":"jooksmine","sound":"jooksmine","image":"liikumine/jooksmine","category":"movement"},
+    {"id":"82","name":"tantsimine","sound":"tantsimine","image":"liikumine/tantsimine","category":"movement"},
+    {"id":"83","name":"ujumine","sound":"ujumine","image":"liikumine/ujumine","category":"movement"},
+    {"id":"84","name":"võimlemine","sound":"voimlemine","image":"liikumine/voimlemine","category":"movement"}
     
 ]
