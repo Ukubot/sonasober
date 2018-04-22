@@ -106,6 +106,7 @@ $(function(){
 
 //HIDE TOP ARROW WHEN SCROLLED TO TOP
 $(function(){
+$(".arrow__arrow-up").hide();
 $('div#topic-menu').scroll(function() {    
     var scroll = $('div#topic-menu').scrollTop();
     if (scroll == 0) {
