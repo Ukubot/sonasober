@@ -200,8 +200,9 @@ body {
 .image-title {
     text-align: center;
     z-index: 9;
-    font-size: 24px;
-    color: #000;
+    font-size: 1rem;
+    padding-top:10px;
+    color: #222;
     text-transform: capitalize;
 }
 
