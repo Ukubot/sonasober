@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="lugeja.js"></script>
   <script src="scripts.js"></script>
+<script src="custom.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="/fonts/OpenDyslexic-Regular.otf">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -32,11 +33,11 @@
   <div id="container">
       <div id="content">
         <div class="app-view places-bg">
-        <div class="topicmenu-container">
+        <div id="topic-menu" class="topicmenu-container">
           <div id="upClick" class="arrow arrow__arrow-up autoclick">
             <i class="fas fa-arrow-up"></i>
         </div>
-          <div class="topicmenu-inner alt_font">
+          <div  class="topicmenu-inner alt_font">
             <div class="topicmenu-element" id="places">
                 <div class="topicmenu-element-inner">
                     <div class="topicmenu-element-inner__card-bg topicmenu-element__places">
@@ -96,7 +97,7 @@
             <i class="fas fa-arrow-down"></i>
         </div>
         </div>
-        <div class="middle-container">
+        <div id="word-cards" class="middle-container">
           <header class="topmenu-container">
             <div class="input-container">
                 <div class="input-container__input-area">
