@@ -17,7 +17,7 @@ body {
 
 /*ALTERNATIVE FONT CLASS FOR CARDS AND CATEGORIES*/
 .alt_font {
-    font-family: OpenDyslexic-Regular;
+    font-family: OpenDyslexic3-Regular;
 }
 
 /*TOP AREA*/
@@ -97,12 +97,15 @@ body {
 
 .topicmenu-container {
   margin: auto;
-  height: calc(100vh - 100px);
+  height: 100%;
   background-color: #ffffff;
   overflow-y: scroll;
   overflow-x: hidden;
   justify-content: flex-start;
   padding:0 20px;
+}
+.topicmenu-inner{
+    margin-top:60px;
 }
 
 .middle-container {
@@ -160,7 +163,8 @@ body {
 }
 
 .topicmenu-element-image-title {
-    font-size:24px;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 
@@ -202,7 +206,7 @@ body {
 }
 
 .img-button img {
-  height: 200px;
+  height: 190px;
   width: 200px;
   opacity: 0.9;
     border-radius: 3px;
@@ -222,11 +226,11 @@ body {
   display: inline-flex;
 }
 
-/* Filter imlimentation */
+/* Filter imlimentation 
 .hide {
   display: none !important
  }
-
+*/
 #wordcontainer {
   justify-content: space-around;
 }
@@ -235,33 +239,39 @@ body {
   display: block;
 }
 
-.arrow-up, .arrow-down {
-  position: absolute;
-  left: 75px;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
+.arrow {
+    position: absolute;
+    font-size: 32px;
+    color: #333;
+    padding: 10px 70px;
 }
 
-.arrow-up {
-  top: 10px;
-  border-bottom: 30px solid tomato;
+.arrow__arrow-up {
+  top:0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,ffffff+99&0.56+1,1+40 */
+background: -moz-linear-gradient(bottom, rgba(255,255,255,0.56) 1%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.56) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to top, rgba(255,255,255,0.56) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.arrow-down {
-  bottom: 10px;
-  border-top: 30px solid tomato;
+.arrow__arrow-down {
+  bottom: 0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,ffffff+99&0.56+1,1+40 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0.56) 1%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.56) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0.56) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.arrow-up:hover {
+.arrow__arrow-up:hover {
     cursor: pointer;
-    border-bottom: 30px solid #fd593c;
+    
 }
 
-.arrow-down:hover {
+.arrow__arrow-down:hover {
     cursor: pointer;
-    border-top: 30px solid #fd593c;
+    
 }
 
 /*CATEGORY MENU END*/
