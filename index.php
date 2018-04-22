@@ -38,60 +38,11 @@
             <i class="fas fa-arrow-up"></i>
         </div>
           <div  class="topicmenu-inner alt_font">
-            <div class="topicmenu-element" id="places">
-                <div class="topicmenu-element-inner">
-                    <div class="topicmenu-element-inner__card-bg topicmenu-element__places">
-                        <img src="images/word-category-icons/places.svg"/>
-                    </div>
-                    <div class="topicmenu-element-image-title">
-                        Kohad
-                    </div>
-                </div>
-            </div>
-            <div class="topicmenu-element" id="animals">
-            <div class="topicmenu-element-inner">
-                    <div class="topicmenu-element-inner__card-bg topicmenu-element__animals">
-                        <img src="images/word-category-icons/animals.svg"/>
-                    </div>
-
-                    <div class="topicmenu-element-image-title">
-                        Loomad
-                    </div>
-                </div>
-            </div>
-            <div class="topicmenu-element" id="clothing">
-            <div class="topicmenu-element-inner">
-                    <div class="topicmenu-element-inner__card-bg topicmenu-element__clothing">
-                        <img src="images/word-category-icons/clothing.svg"/>
-                    </div>
-
-                    <div class="topicmenu-element-image-title">
-                        Riietus
-                    </div>
-                </div>
-            </div>
-            <div class="topicmenu-element" id="activities">
-            <div class="topicmenu-element-inner">
-                    <div class="topicmenu-element-inner__card-bg topicmenu-element__activities">
-                        <img src="images/word-category-icons/activities.svg"/>
-                    </div>
-
-                    <div class="topicmenu-element-image-title">
-                        Tegevused
-                    </div>
-                </div>
-            </div>
-            <div class="topicmenu-element" id="emotions">
-            <div class="topicmenu-element-inner">
-                    <div class="topicmenu-element-inner__card-bg topicmenu-element__emotions">
-                        <img src="images/word-category-icons/emotions.svg"/>
-                    </div>
-                    <div class="topicmenu-element-image-title">
-                        Emotsioonid
-                    </div>
-                </div>
-            </div>
-
+              <?php $textElement = "Loomad"; $idElement = "animals"; $cardElement = "topicmenu-element__animals"; $imageElement = "animals.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Kohad"; $idElement = "places"; $cardElement = "topicmenu-element__places"; $imageElement = "places.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Riietus"; $idElement = "clothing"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Tegevused"; $idElement = "activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "activities.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Emotsioonid"; $idElement = "emotions"; $cardElement = "topicmenu-element__emotions"; $imageElement = "emotions.svg"; include 'menuelement.html'?>
           </div>
           <div id="downClick" class="arrow arrow__arrow-down autoclick">
             <i class="fas fa-arrow-down"></i>
