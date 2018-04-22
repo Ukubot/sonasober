@@ -28,6 +28,12 @@ body {
     display: flex;
 }
 
+.topmenu-container-fixed {
+    position: fixed;
+    z-index: 9;
+}
+
+
 /*INPUT AREA*/
 .input-container {
     width:auto;
@@ -104,6 +110,8 @@ body {
   justify-content: flex-start;
   padding:0 20px;
 }
+
+
 .topicmenu-inner{
     margin-top:60px;
 }
@@ -200,11 +208,13 @@ body {
 .image-title {
     text-align: center;
     z-index: 9;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top:10px;
     color: #222;
     text-transform: capitalize;
 }
+
+
 
 .img-button img {
   height: 190px;
