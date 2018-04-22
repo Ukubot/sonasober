@@ -6,10 +6,13 @@
   <script src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="/fonts/OpenDyslexic-Regular.otf">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
     <style type="text/css">
 @font-face {
-    font-family: "OpenDyslexic";
-    src: url(/fonts/OpenDyslexic-Regular.otf) format("opentype");
+    font-family: OpenDyslexic3-Regular;
+    src: url("fonts/OpenDyslexic3-Regular.woff") format("woff"), url("path/OpenDyslexic3-Regular.ttf")  format("truetype");
 }
 </style>
 
@@ -30,7 +33,9 @@
       <div id="content">
         <div class="app-view places-bg">
         <div class="topicmenu-container">
-          <div id="upClick" class="arrow-up autoclick"></div>
+          <div id="upClick" class="arrow arrow__arrow-up autoclick">
+            <i class="fas fa-arrow-up"></i>
+        </div>
           <div class="topicmenu-inner alt_font">
             <div class="topicmenu-element" id="places">
                 <div class="topicmenu-element-inner">
@@ -87,7 +92,9 @@
             </div>
 
           </div>
-          <div id="downClick" class="arrow-down autoclick"></div>
+          <div id="downClick" class="arrow arrow__arrow-down autoclick">
+            <i class="fas fa-arrow-down"></i>
+        </div>
         </div>
         <div class="middle-container">
           <header class="topmenu-container">
@@ -107,6 +114,7 @@
       </div>
       </div>
       <div id="sound"></div>
+      <div id="sound2"></div>
       </div>
   </div>
 </body>
