@@ -1,5 +1,3 @@
-
-
 //Feature to click elements only by hovering at them / looking at them
 function visiontracker(){
   var delay=3000, setTimeoutConst;
@@ -21,10 +19,8 @@ var playSound = function(soundFile,soundFile2) {
 
 
 function playAudio(soundFile, soundFile2){
-    
     var audio =  soundFile;
     var audio2 = soundFile2;
-    
     if(audio2 !== undefined){
         
         
@@ -41,44 +37,43 @@ function playAudio(soundFile, soundFile2){
 };
 
 //audio2.pause();
-    
-
-
-
-
-
 
 //(function(callback){ console.log(callback.toString()); })(playTwoSounds);
 
-//Getting data from the JSON file and making word-element components with the information
-$(function() {
-  $.getJSON("mydata.json", function(data) {
-    var html = '';
-    
-    $.each(data, function(key, value){
-    
-            var sound = '\'' +value.sound+ '\'';
-            console.log(sound);
-            var sound2 = '\'' +value.sound2+ '\'';
-            console.log(sound2);
-        
-      html += '<div id="'+value.category+'" class="category-filter">';
-      
-      html += '<div id="'+value.id+'" class="word-element img-button" value="'+value.name+'" onclick="playSound('+sound+','+sound2+')">';
-      html += '<div class="word-element-inner">';
-      html += '<img src="images/'+value.image+'.png"/>';
-      html += '<div class="image-title">'+value.name+'</div>';
-      html += '</div></div></div>';
+// Getting data from the JSON file and making word-element components with the information
+//calling out topicmenu loader
+$(function(){
+    $('.topicmenu-element').click(function(){
+        var clickedID = $(this).attr('id');
+        var html = '';
+        $.getJSON("mydata.json", function(data){
+            $.each(data, function(key, value){
+                var sound = '\'' +value.sound+ '\'';
+                var sound2 = '\'' +value.sound2+ '\'';
+                if(value.category === clickedID) {
+                  html += '<div id="'+value.category+'" class="category-filter">';
+                  html += '<div id="'+value.id+'" class="word-element img-button" value="'+value.name+'" onclick="playSound('+sound+','+sound2+')">';
+                  html += '<div class="word-element-inner">';
+                  html += '<img src="images/'+value.image+'.png"/>';
+                  html += '<div class="image-title">'+value.name+'</div>';
+                  html += '</div></div></div>';
+                };
+            });
+            visiontracker();
+            $('#wordcontainer').html(html);
+            $(".category-filter").addClass("hide");
+            $("#places.category-filter").removeClass("hide");
+            $(".word-element").click(function(){
+                $('#kuulatekst').val($('#kuulatekst').val()+$(this).attr("value")+" ");
+            });
+        });
     });
-    $('#wordcontainer').html(html);
-    visiontracker();
-    $(".category-filter").addClass("hide");
-    $("#places.category-filter").removeClass("hide");
-    $(".word-element").click(function(){
-        $('#kuulatekst').val($('#kuulatekst').val()+$(this).attr("value")+" ");
-    });
-  });
 });
+
+// Choose animal topic when app is started
+function chooseFirstCategory(){
+    $('#animals').trigger("click");
+}
 
 // Clear input if clear input button is clicked
 $(function(){
@@ -154,6 +149,10 @@ $(function(){
 			});
 });
 
+// call out first topic selection
+$(function(){
+    chooseFirstCategory();
+});
 
 // $(function() {
 // $('.topicmenu-element').click(function(){
