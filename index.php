@@ -4,7 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="lugeja.js"></script>
   <script src="scripts.js"></script>
-<script src="custom.js"></script>
+    <script src="custom.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="/fonts/OpenDyslexic-Regular.otf">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -40,7 +40,7 @@
           <div  class="topicmenu-inner alt_font">
               <?php $textElement = "Loomad"; $idElement = "animals"; $cardElement = "topicmenu-element__animals"; $imageElement = "animals.svg"; include 'menuelement.html'?>
               <?php $textElement = "Kohad"; $idElement = "places"; $cardElement = "topicmenu-element__places"; $imageElement = "places.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Riietus"; $idElement = "clothing"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Riietus"; $idElement = "clothes"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
               <?php $textElement = "Tegevused"; $idElement = "activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "activities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Emotsioonid"; $idElement = "emotions"; $cardElement = "topicmenu-element__emotions"; $imageElement = "emotions.svg"; include 'menuelement.html'?>
           </div>
@@ -52,10 +52,9 @@
           <header class="topmenu-container">
             <div class="input-container">
                 <div class="input-container__input-area">
-
-                        <button class="input_container__btn-clear" id="clearInput">X</button>
-                        <input id="kuulatekst" name="speech" placeholder="Kirjuta siia"></input>
-                        <button class="input_container__btn-say alt_font" id="kuulaklikk" alt="Kuula teksti valitud häälega">Ütlen</button>
+                <button class="input_container__btn-clear" id="clearInput">X</button>
+                <input id="kuulatekst" name="speech" placeholder="Kirjuta siia"></input>
+                <button class="input_container__btn-say alt_font" id="kuulaklikk" alt="Kuula teksti valitud häälega">Ütlen</button>
                 </div>
             </div>
           </header>
