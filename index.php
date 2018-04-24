@@ -64,8 +64,7 @@
         </div>
       </div>
       </div>
-      <div id="sound"></div>
-      <div id="sound2"></div>
+     <audio id="audiocontainer" hidden controls="" autoplay=""></audio>
       </div>
   </div>
 </body>
