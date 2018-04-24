@@ -1,8 +1,8 @@
 [
 
 
-  {"id":"1","name":"hiir","sound":"hiir","sound2":"hobune","image":"loomad/hiir","category":"animals"},
-  {"id":"2","name":"hobune","sound":"hobune","sound2":"sitt","image":"loomad/hobune","category":"animals"},
+  {"id":"1","name":"hiir","sound":"hiir","image":"loomad/hiir","category":"animals"},
+  {"id":"2","name":"hobune","sound":"hobune","image":"loomad/hobune","category":"animals"},
   {"id":"3","name":"kass","sound":"kass","image":"loomad/kass","category":"animals"},
   {"id":"4","name":"kalad","sound":"kalad","image":"loomad/kalad","category":"animals"},
   {"id":"5","name":"lammas","sound":"lammas","image":"loomad/lammas","category":"animals"},
