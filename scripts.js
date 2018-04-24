@@ -11,34 +11,39 @@ function visiontracker(){
 })
 };
 
-//A element on the site that plays the sounds we feed it
-var playSound = function(soundFile,soundFile2) {
-  $("#sound").html("<embed src=\"psv/" + soundFile + ".wav" + "\" hidden=\"true\" autostart=\"true\" />");
+
+/// Make two files and send them to queue
+function makeAudioList(soundFile, soundFile2){
     
-};
+    audio1 = "psv/" + soundFile + ".wav";
+    audio2 = "psv/" + soundFile2 + ".wav";
+    
+    new Mp3Queue(audiocontainer, [audio1,audio2]
+)};
 
-
-function playAudio(soundFile, soundFile2){
-    var audio =  soundFile;
-    var audio2 = soundFile2;
-    if(audio2 !== undefined){
-        
-        
-        $.playSound(audio);
-        
-        $("#sound").addEventListener('ended', function() {
-            $.playSound(audio2);
-        });
-    }
     
     
-    //audio1.onended();
-    //var audio2 = $("#sound2").html("<embed src=\"psv/" + soundFile2 + ".wav" + "\" hidden=\"true\" />");  
-};
+    var container = document.getElementById('audiocontainer');
+    
+    var Mp3Queue = function(container, files) {
+        var index = 1;
+        if(!container || !container.tagName || container.tagName !== 'AUDIO')throw 'Situ pihku';
+        if(!files || !files.length)throw 'Invalid files array';        
+        
+        var playNext = function() {
+            if(index < files.length) {
+                container.src = files[index];
+                index += 1;
+            } else {
+                container.removeEventListener('ended', playNext, false);
+            }
+        };
+        
+        container.addEventListener('ended', playNext);
+        
+        container.src = files[0];
+    };
 
-//audio2.pause();
-
-//(function(callback){ console.log(callback.toString()); })(playTwoSounds);
 
 // Getting data from the JSON file and making word-element components with the information
 //calling out topicmenu loader
@@ -52,7 +57,7 @@ $(function(){
                 var sound2 = '\'' +value.sound2+ '\'';
                 if(value.category === clickedID) {
                   html += '<div id="'+value.category+'" class="category-filter">';
-                  html += '<div id="'+value.id+'" class="word-element img-button" value="'+value.name+'" onclick="playSound('+sound+','+sound2+')">';
+                  html += '<div id="'+value.id+'" class="word-element img-button" value="'+value.name+'" onclick="makeAudioList ('+sound+','+sound2+')">';
                   html += '<div class="word-element-inner">';
                   html += '<img src="images/'+value.image+'.png"/>';
                   html += '<div class="image-title">'+value.name+'</div>';
@@ -153,16 +158,3 @@ $(function(){
 $(function(){
     chooseFirstCategory();
 });
-
-// $(function() {
-// $('.topicmenu-element').click(function(){
-//   console.log($(this).attr("id"));
-//   console.log($(".category-filter").attr("id"));
-//      $('.category-filter').each(function() {
-//     if($(this).attr("id") != $(".category-filter").attr("id")) {
-//       $(".category-filter").addClass("hide");
-//     }
-//     return false;
-//   });
-//   });
-// });
