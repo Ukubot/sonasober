@@ -197,7 +197,7 @@ body {
 }
 
 .places-bg {
-    background-color: #f7d371;
+    background-color: #E3C062;
 }
 
 .animals-bg {
@@ -205,9 +205,68 @@ body {
 }
 
 .emotions-bg{
-	background-color: /*code from figma*/;
+	background-color: #FFDC24;
 }
 
+.clothing-bg{
+	background-color: #6D994B;
+}
+
+.actions-bg{
+	background-color: #FA5A73;
+}
+
+.weather-bg{
+	background-color: #2EA3E5;
+}
+
+.commandments-bg{
+	background-color: #FF8852;
+}
+
+.hygiene-bg{
+	background-color: #90A7F5;
+}
+
+.health-bg{
+	background-color: #7BBA4A;
+}
+
+.cookingactivities-bg{
+	background-color: #F05151;
+}
+
+.foodanddrink-bg{
+	background-color: #8CD653;
+}
+
+.movement-bg{
+	background-color: #DAE838;
+}
+
+.school-bg{
+	background-color: #F25CD2;
+}
+
+.body-bg{
+	background-color: #E5BA83;
+}
+
+.technique-bg{
+	background-color: #A3A3A3;
+}
+
+.transport-bg{
+	background-color: #EDF5F7;
+}
+
+.characters-bg{
+	background-color: #7C469C;
+}
+
+.people-bg{
+	background-color: #7C469C;
+}
 
 .image-title {
     text-align: center;
