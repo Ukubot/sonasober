@@ -204,6 +204,10 @@ body {
     background-color: #bd835f;
 }
 
+.emotions-bg{
+	background-color: /*code from figma*/;
+}
+
 
 .image-title {
     text-align: center;
