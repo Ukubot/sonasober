@@ -87,21 +87,13 @@ $(function(){
   });
 });
 
-//A current hackish way how to deal with topic changes. - TODO Rework later
+// Topic menu element background color is set as main container background
 $(function(){
-  $('#places.topicmenu-element').click(function(){
-    $(".category-filter").addClass("hide");
-    $(".app-view").addClass("places-bg");
-    $(".app-view").removeClass("animals-bg");
-    $("#places.category-filter").removeClass("hide");
-  });
-
-  $('#animals.topicmenu-element').click(function(){
-    $(".category-filter").addClass("hide");
-    $(".app-view").addClass("animals-bg");
-      $(".app-view").removeClass("places-bg");
-    $("#animals.category-filter").removeClass("hide");
-  });
+    $('.topicmenu-element').click(function(){
+        var bgImage = $(this).find('.topicmenu-element-inner__card-bg').attr('class').split(' ').pop(1);
+        $("#app-view").removeClass();
+        $("#app-view").addClass(bgImage);
+    });
 });
 
 //HIDE TOP ARROW WHEN SCROLLED TO TOP

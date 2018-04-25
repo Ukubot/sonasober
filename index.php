@@ -32,7 +32,7 @@
 <body>
   <div id="container">
       <div id="content">
-        <div class="app-view places-bg">
+        <div id="app-view">
         <div id="topic-menu" class="topicmenu-container">
           <div id="upClick" class="arrow arrow__arrow-up autoclick">
             <i class="fas fa-arrow-up"></i>
