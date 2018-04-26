@@ -48,16 +48,16 @@
               <?php $textElement = "Käsud"; $idElement = "commands"; $cardElement = "topicmenu-element__commands"; $imageElement = "commands.svg"; include 'menuelement.html'?>
               <?php $textElement = "Hügieen"; $idElement = "hygiene"; $cardElement = "topicmenu-element__hygiene"; $imageElement = "hygiene.svg"; include 'menuelement.html'?>
               <?php $textElement = "Tervis"; $idElement = "health"; $cardElement = "topicmenu-element__health"; $imageElement = "health.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Köögi toimingud"; $idElement = "kitchen-activities"; $cardElement = "topicmenu-element__kitchen-activities"; $imageElement = "kitchen-activities.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Söök ja jook"; $idElement = "foodanddrink"; $cardElement = "topicmenu-element__kitchen-foodanddrink"; $imageElement = "foodanddrink.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Liikumine"; $idElement = "movement"; $cardElement = "topicmenu-element__kitchen-movement"; $imageElement = "movement.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Kool"; $idElement = "school"; $cardElement = "topicmenu-element__kitchen-school"; $imageElement = "school.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Keha"; $idElement = "body"; $cardElement = "topicmenu-element__kitchen-body"; $imageElement = "body.svg"; 
+              <?php $textElement = "Köögi toimingud"; $idElement = "kitchen-activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "kitchen-activities.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Söök ja jook"; $idElement = "foodanddrink"; $cardElement = "topicmenu-element__foodanddrink"; $imageElement = "foodanddrink.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Liikumine"; $idElement = "movement"; $cardElement = "topicmenu-element__movement"; $imageElement = "movement.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Kool"; $idElement = "school"; $cardElement = "topicmenu-element__school"; $imageElement = "school.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Keha"; $idElement = "body"; $cardElement = "topicmenu-element__body"; $imageElement = "body.svg"; 
               include 'menuelement.html'?>
-              <?php $textElement = "Tehnika"; $idElement = "technics"; $cardElement = "topicmenu-element__kitchen-technics"; $imageElement = "technics.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Transport"; $idElement = "transport"; $cardElement = "topicmenu-element__kitchen-transport"; $imageElement = "transport.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Omadussõnad"; $idElement = "adjectives"; $cardElement = "topicmenu-element__kitchen-adjectives"; $imageElement = "adjectives.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Inimesed"; $idElement = "people"; $cardElement = "topicmenu-element__kitchen-people"; $imageElement = "people.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Tehnika"; $idElement = "technics"; $cardElement = "topicmenu-element__technics"; $imageElement = "technics.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Transport"; $idElement = "transport"; $cardElement = "topicmenu-element__transport"; $imageElement = "transport.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Omadussõnad"; $idElement = "adjectives"; $cardElement = "topicmenu-element__adjectives"; $imageElement = "adjectives.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Inimesed"; $idElement = "people"; $cardElement = "topicmenu-element__people"; $imageElement = "people.svg"; include 'menuelement.html'?>
               
               
           </div>
