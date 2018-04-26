@@ -1,15 +1,4 @@
-//Feature to click elements only by hovering at them / looking at them
-function visiontracker(){
-  var delay=3000, setTimeoutConst;
-  $('.word-element, .topicmenu-element, #clearInput, #kuulatekst, #kuulaklikk, .autoclick').hover(function() {
-    var visiontarget= $(this);
-     setTimeoutConst = setTimeout(function(){
-      visiontarget.trigger("click");
-     }, delay);
-},function(){
-     clearTimeout(setTimeoutConst );
-})
-};
+
 
 
 /// Make two files and send them to queue
@@ -49,8 +38,11 @@ function makeAudioList(soundFile, soundFile2){
 //calling out topicmenu loader
 $(function(){
     $('.topicmenu-element').click(function(){
+        $(".topicmenu-element").removeClass("active-state");
         var clickedID = $(this).attr('id');
+        $(this).addClass('active-state');
         var html = '';
+        
         $.getJSON("mydata.json", function(data){
             $.each(data, function(key, value){
                 var sound = '\'' +value.sound+ '\'';
@@ -64,14 +56,15 @@ $(function(){
                   html += '</div></div></div>';
                 };
             });
-            visiontracker();
             $('#wordcontainer').html(html);
             $(".category-filter").addClass("hide");
             $("#places.category-filter").removeClass("hide");
+            
             $(".word-element").click(function(){
                 $('#kuulatekst').val($('#kuulatekst').val()+$(this).attr("value")+" ");
             });
         });
+            
     });
 });
 
