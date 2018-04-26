@@ -6,9 +6,10 @@
   <script src="scripts.js"></script>
     <script src="custom.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
     <link href="/fonts/OpenDyslexic-Regular.otf">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="mobile.css">
+
 
     <style type="text/css">
 @font-face {
@@ -43,6 +44,22 @@
               <?php $textElement = "Riietus"; $idElement = "clothes"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
               <?php $textElement = "Tegevused"; $idElement = "activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "activities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Emotsioonid"; $idElement = "emotions"; $cardElement = "topicmenu-element__emotions"; $imageElement = "emotions.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Ilm"; $idElement = "weather"; $cardElement = "topicmenu-element__weather"; $imageElement = "weather.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Käsud"; $idElement = "commands"; $cardElement = "topicmenu-element__commands"; $imageElement = "commands.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Hügieen"; $idElement = "hygiene"; $cardElement = "topicmenu-element__hygiene"; $imageElement = "hygiene.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Tervis"; $idElement = "health"; $cardElement = "topicmenu-element__health"; $imageElement = "health.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Köögi toimingud"; $idElement = "kitchen-activities"; $cardElement = "topicmenu-element__kitchen-activities"; $imageElement = "kitchen-activities.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Söök ja jook"; $idElement = "foodanddrink"; $cardElement = "topicmenu-element__kitchen-foodanddrink"; $imageElement = "foodanddrink.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Liikumine"; $idElement = "movement"; $cardElement = "topicmenu-element__kitchen-movement"; $imageElement = "movement.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Kool"; $idElement = "school"; $cardElement = "topicmenu-element__kitchen-school"; $imageElement = "school.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Keha"; $idElement = "body"; $cardElement = "topicmenu-element__kitchen-body"; $imageElement = "body.svg"; 
+              include 'menuelement.html'?>
+              <?php $textElement = "Tehnika"; $idElement = "technics"; $cardElement = "topicmenu-element__kitchen-technics"; $imageElement = "technics.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Transport"; $idElement = "transport"; $cardElement = "topicmenu-element__kitchen-transport"; $imageElement = "transport.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Omadussõnad"; $idElement = "adjectives"; $cardElement = "topicmenu-element__kitchen-adjectives"; $imageElement = "adjectives.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Inimesed"; $idElement = "people"; $cardElement = "topicmenu-element__kitchen-people"; $imageElement = "people.svg"; include 'menuelement.html'?>
+              
+              
           </div>
           <div id="downClick" class="arrow arrow__arrow-down autoclick">
             <i class="fas fa-arrow-down"></i>
