@@ -4,8 +4,8 @@
 /// Make two files and send them to queue
 function makeAudioList(soundFile, soundFile2){
     
-    audio1 = "psv/" + soundFile + ".wav";
-    audio2 = "psv/" + soundFile2 + ".wav";
+    audio1 = "http://mina.sonasober.ee/psv/" + soundFile + ".mp3";
+    audio2 = "http://mina.sonasober.ee/psv/" + soundFile2 + ".mp3";
     
     new Mp3Queue(audiocontainer, [audio1,audio2]
 )};
@@ -32,6 +32,13 @@ function makeAudioList(soundFile, soundFile2){
         
         container.src = files[0];
     };
+
+//Google Analytics Events for menu items clicks
+$(document).on('click', '.topicmenu-element', function() {
+    var name = $(this).attr('id');
+    ga('send', 'event', 'menu', 'click', name);
+});
+
 
 
 // Getting data from the JSON file and making word-element components with the information
@@ -68,6 +75,14 @@ $(function(){
     });
 });
 
+//Google Analytics Events for card items clicks
+$(document).on('click', '.word-element', function() {
+    var cardName = $(this).attr('value');
+    console.log(cardName);
+    ga('send', 'event', 'content', 'click', cardName);
+});
+
+
 // Choose animal topic when app is started
 function chooseFirstCategory(){
     $('#animals').trigger("click");
@@ -86,8 +101,14 @@ $(function(){
         var bgImage = $(this).find('.topicmenu-element-inner__card-bg').attr('class').split(' ').pop(1);
         $("#app-view").removeClass();
         $("#app-view").addClass(bgImage);
+        
+        $("#word-cards").animate({ scrollTop: 0 }, "slow");
+        return false;
+        
+        
     });
 });
+
 
 //HIDE TOP ARROW WHEN SCROLLED TO TOP
 $(function(){
