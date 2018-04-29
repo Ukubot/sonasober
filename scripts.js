@@ -111,7 +111,8 @@ $(function(){
         var bgImage = $(this).find('.topicmenu-element-inner__card-bg').attr('class').split(' ').pop(1);
         $("#app-view").removeClass();
         $("#app-view").addClass(bgImage);
-        $("#header").addClass(bgImage);
+        $("#topmenu-container").removeClass();
+        $("#topmenu-container").addClass(bgImage);
         $("#word-cards").animate({ scrollTop: 0 }, "slow");
         return false;
         
@@ -141,12 +142,11 @@ $(function(){
 $('div#word-cards').scroll(function() {    
     var scroll = $('div#word-cards').scrollTop();
     if (scroll >= 50) {
-        $(".topmenu-container").addClass("topmenu-container-fixed");
-        $(".topmenu-container").css("background-color", "")
+        $("#topmenu-container").addClass("topmenu-container-fixed");
     }
     
     else {
-        $(".topmenu-container").removeClass("topmenu-container-fixed");
+        $("#topmenu-container").removeClass("topmenu-container-fixed");
     }
 });
 
