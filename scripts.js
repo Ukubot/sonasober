@@ -82,10 +82,20 @@ $(document).on('click', '.word-element', function() {
     ga('send', 'event', 'content', 'click', cardName);
 });
 
+//Google Analytics Events for ütlen button clicks
+$(document).on('click', '.input_container__btn-say', function() {
+    ga('send', 'event', 'input-area', 'click', 'say-button');
+});
+
+//Google Analytics Events for Clear button clicks
+$(document).on('click', '#clearInput', function() {
+    ga('send', 'event', 'input-area', 'click', 'clear-button');
+});
+
 
 // Choose animal topic when app is started
 function chooseFirstCategory(){
-    $('#animals').trigger("click");
+    $('#activities').trigger("click");
 }
 
 // Clear input if clear input button is clicked
@@ -101,7 +111,7 @@ $(function(){
         var bgImage = $(this).find('.topicmenu-element-inner__card-bg').attr('class').split(' ').pop(1);
         $("#app-view").removeClass();
         $("#app-view").addClass(bgImage);
-        
+        $("#header").addClass(bgImage);
         $("#word-cards").animate({ scrollTop: 0 }, "slow");
         return false;
         
@@ -132,6 +142,7 @@ $('div#word-cards').scroll(function() {
     var scroll = $('div#word-cards').scrollTop();
     if (scroll >= 50) {
         $(".topmenu-container").addClass("topmenu-container-fixed");
+        $(".topmenu-container").css("background-color", "")
     }
     
     else {
