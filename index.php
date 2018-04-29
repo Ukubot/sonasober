@@ -91,7 +91,7 @@
         </div>
         </div>
         <div id="word-cards" class="middle-container">
-          <header id="header" class="topmenu-container">
+          <header id="topmenu-container">
             <div class="input-container">
                 <div class="input-container__input-area">
                 <button class="input_container__btn-clear" id="clearInput">X</button>
