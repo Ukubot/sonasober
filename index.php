@@ -63,15 +63,16 @@
             <i class="fas fa-arrow-up"></i>
         </div>
           <div  class="topicmenu-inner alt_font">
-              <?php $textElement = "Loomad"; $idElement = "animals"; $cardElement = "topicmenu-element__animals"; $imageElement = "animals.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Kohad"; $idElement = "places"; $cardElement = "topicmenu-element__places"; $imageElement = "places.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Riietus"; $idElement = "clothes"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
+              
               <?php $textElement = "Tegevused"; $idElement = "activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "activities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Emotsioonid"; $idElement = "emotions"; $cardElement = "topicmenu-element__emotions"; $imageElement = "emotions.svg"; include 'menuelement.html'?>
               <?php $textElement = "Ilm"; $idElement = "weather"; $cardElement = "topicmenu-element__weather"; $imageElement = "weather.svg"; include 'menuelement.html'?>
               <?php $textElement = "Käsud"; $idElement = "commands"; $cardElement = "topicmenu-element__commands"; $imageElement = "commands.svg"; include 'menuelement.html'?>
               <?php $textElement = "Hügieen"; $idElement = "hygiene"; $cardElement = "topicmenu-element__hygiene"; $imageElement = "hygiene.svg"; include 'menuelement.html'?>
               <?php $textElement = "Tervis"; $idElement = "health"; $cardElement = "topicmenu-element__health"; $imageElement = "health.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Loomad"; $idElement = "animals"; $cardElement = "topicmenu-element__animals"; $imageElement = "animals.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Kohad"; $idElement = "places"; $cardElement = "topicmenu-element__places"; $imageElement = "places.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Riietus"; $idElement = "clothes"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
               <?php $textElement = "Köögi toimingud"; $idElement = "kitchen-activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "kitchen-activities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Söök ja jook"; $idElement = "foodanddrink"; $cardElement = "topicmenu-element__foodanddrink"; $imageElement = "foodanddrink.svg"; include 'menuelement.html'?>
               <?php $textElement = "Liikumine"; $idElement = "movement"; $cardElement = "topicmenu-element__movement"; $imageElement = "movement.svg"; include 'menuelement.html'?>
@@ -90,7 +91,7 @@
         </div>
         </div>
         <div id="word-cards" class="middle-container">
-          <header class="topmenu-container">
+          <header id="header" class="topmenu-container">
             <div class="input-container">
                 <div class="input-container__input-area">
                 <button class="input_container__btn-clear" id="clearInput">X</button>
