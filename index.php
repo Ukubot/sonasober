@@ -63,7 +63,7 @@
             <i class="fas fa-arrow-up"></i>
         </div>
           <div  class="topicmenu-inner alt_font">
-              
+              <?php $textElement = "Põhisõnad"; $idElement = "mainwords"; $cardElement = "topicmenu-element__mainwords"; $imageElement = "mainwords.svg"; include 'menuelement.html'?>
               <?php $textElement = "Tegevused"; $idElement = "activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "activities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Emotsioonid"; $idElement = "emotions"; $cardElement = "topicmenu-element__emotions"; $imageElement = "emotions.svg"; include 'menuelement.html'?>
               <?php $textElement = "Ilm"; $idElement = "weather"; $cardElement = "topicmenu-element__weather"; $imageElement = "weather.svg"; include 'menuelement.html'?>
@@ -73,7 +73,7 @@
               <?php $textElement = "Loomad"; $idElement = "animals"; $cardElement = "topicmenu-element__animals"; $imageElement = "animals.svg"; include 'menuelement.html'?>
               <?php $textElement = "Kohad"; $idElement = "places"; $cardElement = "topicmenu-element__places"; $imageElement = "places.svg"; include 'menuelement.html'?>
               <?php $textElement = "Riietus"; $idElement = "clothes"; $cardElement = "topicmenu-element__clothing"; $imageElement = "clothing.svg"; include 'menuelement.html'?>
-              <?php $textElement = "Köögi toimingud"; $idElement = "kitchen-activities"; $cardElement = "topicmenu-element__activities"; $imageElement = "kitchen-activities.svg"; include 'menuelement.html'?>
+              <?php $textElement = "Köögi toimingud"; $idElement = "cookingactivities"; $cardElement = "topicmenu-element__cookingactivities"; $imageElement = "cookingactivities.svg"; include 'menuelement.html'?>
               <?php $textElement = "Söök ja jook"; $idElement = "foodanddrink"; $cardElement = "topicmenu-element__foodanddrink"; $imageElement = "foodanddrink.svg"; include 'menuelement.html'?>
               <?php $textElement = "Liikumine"; $idElement = "movement"; $cardElement = "topicmenu-element__movement"; $imageElement = "movement.svg"; include 'menuelement.html'?>
               <?php $textElement = "Kool"; $idElement = "school"; $cardElement = "topicmenu-element__school"; $imageElement = "school.svg"; include 'menuelement.html'?>
@@ -106,7 +106,7 @@
         </div>
       </div>
       </div>
-     <audio id="audiocontainer" hidden controls="" autoplay=""></audio>
+     <audio id="audiocontainer" hidden autoplay controls=""></audio>
       </div>
   </div>
 </body>
