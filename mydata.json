@@ -456,7 +456,7 @@
     {"id":"447","name":"muna","sound":"muna","image":"transport/muna","category":"food"},
     {"id":"448","name":"viiner","sound":"viiner","image":"transport/viiner","category":"food"},
     {"id":"449","name":"vorst","sound":"vorst","image":"transport/vorst","category":"food"},
-    {"id":"450","name":"jäätis","sound":"jaatis","image":"transport/jaatis","category":"food"},
+    {"id":"450","name":"jäätis","sound":"jaatis","image":"transport/jaatis","category":"food"}
     
     
 ]
