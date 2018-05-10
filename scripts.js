@@ -4,8 +4,8 @@
 /// Make two files and send them to queue
 function makeAudioList(soundFile, soundFile2){
     
-    audio1 = "http://mina.sonasober.ee/psv/" + soundFile + ".mp3";
-    audio2 = "http://mina.sonasober.ee/psv/" + soundFile2 + ".mp3";
+    audio1 = "/psv/" + soundFile + ".mp3";
+    audio2 = "/psv/" + soundFile2 + ".mp3";
     
     new Mp3Queue(audiocontainer, [audio1,audio2]
 )};
@@ -95,7 +95,7 @@ $(document).on('click', '#clearInput', function() {
 
 // Choose animal topic when app is started
 function chooseFirstCategory(){
-    $('#activities').trigger("click");
+    $('#mainwords').trigger("click");
 }
 
 // Clear input if clear input button is clicked
